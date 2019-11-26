@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-mentoring",
+  "version": "1.0.0",
+  "description": "NodeJS Global Mentoring Program [2019Q4 UA]",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon --exec babel-node task1.js",
+    "task2": "nodemon --exec babel-node task2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rise2semi/nodejs-mentoring.git"
+  },
+  "author": "Borys Semerenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rise2semi/nodejs-mentoring/issues"
+  },
+  "homepage": "https://github.com/rise2semi/nodejs-mentoring#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "csvtojson": "^2.0.10",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {}
+}
