@@ -1,7 +1,7 @@
-const path = require('path');
-const fs = require('fs');
-const { pipeline } = require('stream');
-const csv = require('csvtojson');
+import path from 'path';
+import fs from 'fs';
+import { pipeline } from 'stream';
+import csv from 'csvtojson';
 
 pipeline(
     fs.createReadStream(path.resolve('./csv', 'example.csv')),
