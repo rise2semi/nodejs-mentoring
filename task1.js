@@ -7,5 +7,11 @@ const reverseStream = readline.createInterface({
 });
 
 reverseStream.on('line', (line) => {
-    console.log(line.split('').reverse().join(''));
+    let symbols = [];
+    
+    for (const symbol of line) {
+      symbols.push(symbol);
+    }
+
+    console.log(symbols.reverse().join(''));
 });
